@@ -1,6 +1,6 @@
 # Mandate letter analysis with GNU/Linux tools
 
-This document shows the technical details of using Linux shell commands to look at relationships in the Canadian Federal Government. Last week, the government published mandate letters for the new cabinet. Each minister gets a mandata letter from the Prime Minister laying out the important priorities for that ministry. Our goal is to analyze these for cross references, to understand how the ministries work together. For example, the Minister of National Defence is asked to work with Public Services and Procurement Canada and Veteran's Affairs to deliver his mandate.
+This document shows the technical details of using Linux shell commands to look at relationships in the Canadian Federal Government. Last week, the government published mandate letters for the new cabinet. Each minister gets a mandate letter from the Prime Minister laying out the important priorities for that ministry. Our goal is to analyze these for cross references, to understand how the ministries work together. For example, the Minister of National Defence is asked to work with Public Services and Procurement Canada and Veteran's Affairs to deliver his mandate.
 
 ## Data
 
@@ -260,7 +260,7 @@ Additionally, Finance and Treasury board appear at the middle, with an above ave
 ```
 
 The Treasury board is actually connected to everyone, not surprising given their role handling the money. Health and finance are also high on the list. These may be overrepresented slightly because `health` in particular is also a common word, that might not always refer specifically to collaborating with the minister. 
-Another interesting way to look at the connections if the Adjacency matrix of the graph, which shows the connections as a heat map of the number of mutual mentions between ministries in their letters. The heat map is symmetrical, because it counts the mentions between the pair, so whether we consider mutual mentions between defence and procurement, or procurement and defence, it will be the same number.   
+Another interesting way to look at the connections is the Adjacency matrix of the graph, which shows the connections as a heat map of the number of mutual mentions between ministries in their letters. The heat map is symmetrical, because it counts the mentions between the pair, so whether we consider mutual mentions between defence and procurement, or procurement and defence, it will be the same number.   
 
 ![](adjacency.png)
 
