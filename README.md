@@ -1,6 +1,6 @@
 # Mandate letter analysis with GNU/Linux tools
 
-This document shows the technical details of using Linux shell commands to look at relationships in the Canadian Federal Government. Last week, the government publishes mandate letters for the new cabinet. Each minister gets a mandata letter from the Prime Minister laying out the important priorities for that ministry. Our goal is to analyze these for cross references, to understand how the ministries work together. For example, the Minister of National Defence is asked to work with Public Services and Procurement Canada and Veteran's Affairs to deliver his mandate.
+This document shows the technical details of using Linux shell commands to look at relationships in the Canadian Federal Government. Last week, the government published mandate letters for the new cabinet. Each minister gets a mandata letter from the Prime Minister laying out the important priorities for that ministry. Our goal is to analyze these for cross references, to understand how the ministries work together. For example, the Minister of National Defence is asked to work with Public Services and Procurement Canada and Veteran's Affairs to deliver his mandate.
 
 ## Data
 
